@@ -1,0 +1,19 @@
+span{
+    font-family:'Play', sans-serif;
+}
+
+.logo{
+width:7em ;
+height:6.25em ;
+margin:0.2em 1em 0.2em 1em;
+}
+
+#logos{
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: 600;
+}
