@@ -1,19 +1,184 @@
+p{
+    font-family: 'Play', sans-serif;
+   text-align: center;
+}
+
 span{
     font-family:'Play', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    font-family: Teko, sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
 .logo{
-width:7em ;
-height:6.25em ;
-margin:0.2em 1em 0.2em 1em;
+ width:20% ;
+height:100% ;
+ margin:0.2em 1em 0.2em 1em; 
 }
 
 #logos{
-    border: black solid 1px;
+    border: black solid 0.5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-h1{
-    font-weight: 600;
+
+/* titulos y subtitulos */
+h1 {
+    font-family: 'Play', sans-serif;
+    height: 10rem;
+    font-size: 7rem;
+    font-weight:400;
+    min-width: 100%;
 }
+
+h2{
+    font-family: 'Play', sans-serif;
+    font-size: 1.875rem;
+}
+
+h3{font-family: 'Play', sans-serif;
+    margin-left: 1.25rem;
+}
+h4{
+    font-family: 'Play', sans-serif;
+    margin-left: 1.25rem;
+}
+
+
+.enlaces_imagen img{
+   
+    border: 4px black;
+    border-style: solid ;
+    border-radius: 2.5px;
+    transition: all 0.2 ease-in-out;
+}
+
+.enlaces_imagen img:hover{
+    transform: scale(1.1);
+    border: 4px white;
+    border-style: solid ;
+    border-radius: 2.5px;
+}
+
+/* .enlaces_imagen{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    } */
+
+
+/* main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* tabla dias y horarios */
+
+#tabla{
+    empty-cells: show;
+    font-family: 'Play', sans-serif, black; 
+    font-size: 1.25rem;
+
+    /* margin: 2.813rem;
+    width: 70vw;
+    height: 15.625rem; */
+    text-align: left;
+    border-collapse: collapse;
+   
+}
+
+th { 
+    font-size: 1.25rem;     
+    font-weight: normal;
+ padding: 0.5rem;    
+    background: #b9c9fe;
+    border-top: 0.5rem solid #aabcfe;
+    border-bottom: 0.063rem solid #fff; 
+}
+
+td {    
+     padding: 0.5rem; 
+    background: #e8edff;
+    border-bottom: 0.063rem solid #fff;
+    border-top: 0.063rem solid transparent; 
+}
+
+/* enlace_wassap */
+
+.wassap{
+    width: 10rem;
+    height: 10%;
+    border: 0;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    z-index: 100;
+}
+
+/* enlace-Judo */
+
+#kano_imagen img{
+    width: 40%;
+    height: 40%;
+    border: double black 2px;
+}
+
+#kano_imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+#tecnicas_judo{
+    margin-left: 1.25;
+    padding-left: 0;
+}
+#tecnicas_judo li{
+    font-family: 'Play', sans-serif;
+}
+
+/* enlace bjj */
+
+.carlos_helio{
+    height: 40%;
+    width: 40%;
+    border: double black 2px;
+    }
+   
+    .kimura_gracie{
+       border: double black 2px;
+       height: 40%;
+        width: 40%;
+    }
+   
+   
+   
+   div[id*=imagen-bjj]{
+           display: flex;
+           flex-direction: column;
+           justify-items: center;
+           align-items: center;
+        }
+
+    .video{
+            display: flex;
+           justify-content: center;
+            transform: translatey(80px);
+        }
+
+    .carousel-item img{
+        height:30%;
+        width: 30%;
+    }
+   

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <!-- google fonts -->
@@ -19,13 +19,11 @@
 </head>
 <body>
     <header>
-
-            <div id="logos" class="bg-secondary">
-              <img src="public/img/kodokanlobos.jpeg" alt="logoJudo" class="logo">
-              <span><strong>"Formamos campeones de la vida"</strong></span>
-              <img src="public/img/sukatab.jpg" alt="logoBjj" class="logo">
-            </div>
-
+            <section id="logos" class="bg-secondary container-fluid d-flex justify-content-center">
+              <img src="public/img/kodokanlobos.jpeg" alt="logoJudo" class="logo img-fluid width: 100% \9">
+              <span class="fs-4"><strong>"Formamos campeones de la vida"</strong></span>
+              <img src="public/img/sukatab.jpg" alt="logoBjj" class="logo img-fluid width: 100% \9">
+            </section>
           <div>
               <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
@@ -60,10 +58,29 @@
           </div>
     </header> 
 
-   <hr>
-    <h1 class="text-center text-white bg-dark display-1 p-4">Grappling Lobos</h1>  
+   
 
-    <main class="bg-secondary" >
+    <main class="bg-secondary m-0 p-0 container-fluid" >
+      <hr>
+    <h1 class="text-center text-white bg-dark display-1 p-4">Grappling Lobos</h1> 
+
+    <h2>Kodokan Lobos Dojo, Sukata sur brazilian Jiu jitsu</h2>
+
+    <!--Imagenes con enlaces relativos -->
+    <article>
+      <section class="enlaces_imagen  d-flex justify-content-evenly">
+         
+            <a href="pages/judo.html"><img class="img-fluid width: 100% \9" src="public/img/judo.jpg" alt="judo"></a>
+            <a href="pages/bjj.html"><img class="img-fluid width: 100% \9" src="public/img/bjj.jpg" alt="bjj" ></a>
+        
+      </section>
+        <p>"Click en la imagen"</p>
+      
+        <!-- enlace wassap -->
+        <div>
+          <a href="https://api.whatsapp.com/send?phone=542227516745&wassap= En que podemos ayudarte?" target=_blanc> <img src="public/img/wassap.png" alt="wassap"  class="wassap"></a>
+          </div>
+      </article>
 
   </main>
 
