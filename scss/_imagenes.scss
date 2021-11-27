@@ -1,0 +1,56 @@
+// imagenes home
+
+.enlaces_imagen {
+    img{
+   
+        border: 4px black;
+        border-style: solid ;
+        border-radius: 2.5px;
+        transition: all 0.2 ease-in-out;}
+        
+        img:hover {
+        transform: scale(1.1);
+        border: 4px white;
+        border-style: solid ;
+        border-radius: 2.5px;
+    }
+}
+
+// imagen html_judo
+
+#kano_imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+   img {
+    width: ($ancho/2)-20;
+    height: ($ancho/5);
+    border: double black 2px;}
+
+}
+
+// imagen html_bjj
+
+.carlos_helio{
+    height: ($ancho/2)-10;
+    width: ($ancho/2)-10;
+    border: double black 2px;
+    }
+   
+    .kimura_gracie{
+       border: double black 2px;
+       height: ($ancho/2)-10;
+        width: ($ancho/2)-10;
+    }
+   
+   
+   
+   div[id*=imagen-bjj]{
+           display: flex;
+           flex-direction: column;
+           justify-items: center;
+           align-items: center;
+        }

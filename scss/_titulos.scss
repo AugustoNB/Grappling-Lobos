@@ -1,0 +1,25 @@
+h1 {
+    font-family: $font_titulos;
+    text-align: $font_space;
+    height: 10rem;
+    font-size: 7rem;
+    font-weight:400;
+    min-width: $ancho;
+}
+
+h2{
+    font-family: $font_titulos;
+    text-align: $font_space;
+    font-size : 1.875rem;
+}
+
+h3 {font-family: $font_titulos;
+    margin-left: $margin_subt;
+    text-align: $font_space;
+}
+
+h4{
+    font-family: $font_titulos;
+    margin-left: $margin_subt;
+    text-align: $font_space;
+}

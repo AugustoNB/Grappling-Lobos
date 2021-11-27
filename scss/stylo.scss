@@ -1,0 +1,83 @@
+@import "variables";
+
+@import "body";
+
+@import "header";
+
+@import "titulos";
+
+@import "imagenes";
+
+
+/* tabla dias y horarios */
+
+#tabla{
+    empty-cells: show;
+    font-family: 'Play', sans-serif, black; 
+    font-size: 1.25rem;
+
+    /* margin: 2.813rem;
+    width: 70vw;
+    height: 15.625rem; */
+    text-align: left;
+    border-collapse: collapse;
+   
+}
+
+th { 
+    font-size: 1.25rem;     
+    font-weight: normal;
+ padding: 0.5rem;    
+    background: #b9c9fe;
+    border-top: 0.5rem solid #aabcfe;
+    border-bottom: 0.063rem solid #fff; 
+}
+
+td {    
+     padding: 0.5rem; 
+    background: #e8edff;
+    border-bottom: 0.063rem solid #fff;
+    border-top: 0.063rem solid transparent; 
+}
+
+/* enlace_wassap */
+//  Mixin
+@mixin wassap ($ancho_w, $alto_w, $borde_w){
+width: $ancho_w;
+height: $alto_w;
+border: $borde_w;
+}
+    
+.wassap{
+    @include wassap(10rem, 10%, 0px);
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    z-index: 100;
+}
+
+
+
+/* enlace-Judo */
+
+#tecnicas_judo{
+    margin-left: 1.25;
+    padding-left: 0;
+   li{
+    font-family: 'Play', sans-serif;
+    }
+}
+
+/* enlace bjj */
+
+ .video{
+            display: flex;
+           justify-content: center;
+            transform: translatey(80px);
+        }
+
+.carousel-item img{
+        height:30%;
+        width: 30%;
+    }
+   
