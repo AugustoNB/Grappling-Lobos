@@ -1,0 +1,16 @@
+-agregue los sigientes meta tags:
+
+    <meta name="keywords" content="Judo, Brasilian Jiujitsu, Kodokan Lobos, Sukata Brothers">
+    <meta name="description" content="Escuela de Judo y Bjj en Lobos, Bs As">
+
+-agregue favicon
+-agregue font awesome
+-agregue descripcion de titulo
+-cambie el icono de wassap y el footer en su totalidad
+-agregue "formulario" en el html de contacto.
+-realize SEO sobre elementos de parrafo.
+
+Falta para proyecto final:
+-ajustar medias queries de algunos html y el icono de wassap
+-agregar mas meta tags
+-agregar mas elementos y pequeños ajustes de estilos en algunos presentes.
