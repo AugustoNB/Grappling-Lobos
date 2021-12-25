@@ -76,10 +76,10 @@
       <h2>Tambien consulta por clases particulares</h2>
       
       <article>
-          <divc class="container-fluid">
-              <table id="tabla" class="width: 100% row col-sm-12"> 
-              <thead class="row col-12">
-                  <tr class="colum col-12">
+          <div class="table-responsive">
+              <table id="tabla" class="table-sm"> 
+              <thead>
+                  <tr>
                       <th>horario</th>
                       <th>lunes</th>
                       <th>miercoles</th>
@@ -87,17 +87,17 @@
                       <th>sabados</th>
                     </tr>
               </thead>
-              <tbody class="colum col-12">
+              <tbody >
               <tr>
-                  <td class="colum col-4">14/16hs</td>
+                  <td>14/16hs</td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td>bjj</td>
               </tr>
   
-              <tr class="colum col-4">
-                  <td>19/20hs</td>
+              <tr>
+                  <td>19/20.30hs</td>
                   <td>judo</td>
                   <td>judo</td>
                   <td>judo</td>
@@ -105,7 +105,7 @@
               </tr>
               
               <tr>
-                <td class="colum col-4">20/21hs</td>
+                <td>20.30/21.30hs</td>
                 <td>bjj</td>
                 <td>bjj</td>
                 <td>judo</td>
@@ -114,8 +114,9 @@
           </tbody>
         </table>
     </div>
+
    <!-- enlace wassap -->
-   <div>
+   <div class="enlace_wassap">
     <a href="https://api.whatsapp.com/send?phone=542227516745&wassap= En que podemos ayudarte?" target=_blanc> <img src="../public/img/wassap.png" alt="wassap"  class="wassap"></a>
     </div>
   
@@ -123,7 +124,6 @@
   
     </main>
           
-  
 
 
   <!-- Footer -->
@@ -192,6 +192,10 @@
         <a href="https://github.com/AugustoNB" target="_blanc" class="text-white me-4">
           <i class="fab fa-github"></i>
         </a>
+        <a href="https://api.whatsapp.com/send?phone=542227516745&wassap= En que podemos ayudarte?" target="_blanc" class="text-white me-4 d-lg-none">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
       </section>
       <!-- Section: Social -->
     </div>

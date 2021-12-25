@@ -130,3 +130,10 @@ td {
 .carousel-item img {
   height: 30%;
   width: 30%; }
+
+@media (max-width: 768px) {
+  .enlace_wassap {
+    display: none; } }
+
+#ubicacion {
+  margin: 3rem; }

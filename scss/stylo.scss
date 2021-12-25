@@ -13,6 +13,7 @@
 
 
 
+
 /* tabla dias y horarios */
 
 #tabla{
@@ -41,6 +42,7 @@ td {
 }
 
 /* enlace_wassap */
+
 //  Mixin
 @mixin wassap ($ancho_w, $alto_w, $borde_w){
 width: $ancho_w;
@@ -55,6 +57,7 @@ border: $borde_w;
     right: 2.5rem;
     z-index: 100;
 }
+
 
 
 
@@ -80,4 +83,16 @@ border: $borde_w;
         height:30%;
         width: 30%;
     }
+
+    // media enlace wathsapp 
    
+    @media (max-width: 768px) {
+        .enlace_wassap {
+          display: none;
+        }
+     }
+
+    //  google map
+    #ubicacion{
+    margin: 3rem;
+    }
